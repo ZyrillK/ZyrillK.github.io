@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>TIMETABLE</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <script type ="text/javascript" src="schedScript.js"></script>
+    </head>
+
+
+
+    <body>
+
+        <!--
+
+        <form action="test" method="post">
+            <div class="enterInput">
+            <fieldset>
+            <legend>Pick a major and check completed courses</legend>
+            <p>
+                <label for="major">*Major </label>
+                <select name="userMajor" id="major" required>
+                    <option value="compSci">Computer Science</option>
+                    <option value="math">Mathematics</option>
+                    <option value="psych">Psychology</option>
+                </select>
+            
+            </p>
+            
+            <p>
+                <ul>
+                    <li>
+                        <input type="checkbox" id="majReq1" name="majChecked" value="majReq1">
+                        <label for="majReq1"> Test1</label>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" id="majReq2" name="majChecked" value="majReq2">
+                        <label for="majReq2"> Test2</label>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" id="majReq3" name="majChecked" value="majReq3">
+                        <label for="majReq3"> Test3</label>
+                    </li>
+                </ul>
+            </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Pick a minor and check completed courses</legend>
+            <p>
+                <label for="minor">*Minor </label>
+                <select name="userMinor" id="minor" required>
+                    <option value="compSci">Computer Science</option>
+                    <option value="math">Mathematics</option>
+                    <option value="psych">Psychology</option>
+                </select>
+            </p>
+
+            <p>
+                <ul>
+                    <li>
+                        <input type="checkbox" id="minReq1" name="minChecked" value="minReq1">
+                        <label for="minReq1"> Test1</label>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" id="minReq2" name="minChecked" value="minReq2">
+                        <label for="minReq2"> Test2</label>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" id="minReq3" name="minChecked" value="minReq3">
+                        <label for="minReq3"> Test3</label>
+                    </li>
+                </ul>
+            </p>
+            </fieldset>
+            </div>
+
+            <p>Some Education and/or Music courses may not display the proper time slot. Refer to the online Registration Guide to verify time slots.</p>
+
+            <p>
+            <button>Generate Timetable</button>
+            </p>
+        </form>
+
+        <table>
+            
+            <tr>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+
+            <tr>
+                <td rowspan="2" >Slot 01</td>
+                <td rowspan="3" >Slot 10</td>
+                <td rowspan="2" >Slot 01</td>
+                <td rowspan="3" >Slot 10</td>
+                <td rowspan="2" >Slot 01</td>
+            </tr>
+            <tr>
+            </tr>
+
+            <tr>
+                <td rowspan="2" >Slot 02</td>
+                <td rowspan="2" >Slot 02</td>
+                <td rowspan="2" >Slot 02</td>
+            </tr>
+            <tr>
+                <td rowspan="3" >Slot 11</td>
+                <td rowspan="3" >Slot 11</td>
+            </tr>
+            <tr> 
+                <td rowspan="2" >Slot 03</td>
+                <td rowspan="2" >Slot 03</td>
+                <td rowspan="2" >Slot 03</td>
+            </tr>
+            
+
+
+            <tr></tr>
+                <td rowspan="2" >Slot 04</td>
+                <td rowspan="2" >Slot 12</td>
+                <td rowspan="2" >Slot 04</td>
+                <td rowspan="4" >Slot 12</td>
+                <td rowspan="2" >Slot 04</td>
+            </tr>
+            <tr>
+            </tr>
+
+            <tr>
+                <td rowspan="2" >Slot 05</td>
+                <td rowspan="2" >No Classes</td>
+                <td rowspan="2" >Slot 05</td>
+                <td rowspan="2" >Slot 05</td>
+            </tr>
+            <tr>
+            </tr>
+
+
+            <tr>
+                <td rowspan="2" >Slot 06</td>
+                <td rowspan="6" >Slot 13</td>
+                <td rowspan="2" >Slot 06</td>
+                <td rowspan="6" >Slot 14</td>
+                <td rowspan="2" >Slot 06</td>
+            </tr>
+            <tr>
+            </tr>
+
+            <tr>
+                <td rowspan="2" >Slot 07</td>
+                <td rowspan="2" >Slot 07</td>
+                <td rowspan="2" >Slot 07</td>
+            </tr>
+            <tr></tr>
+
+            <tr>
+                <td rowspan="3" >Slot 08</td>
+                <td rowspan="3" >Slot 08</td>
+                <td rowspan="5" >Slot 015</td>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+                <td rowspan="3" >No Classes</td>
+                <td rowspan="3" >Slot 15</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2" >No Classes</td>
+                <td rowspan="2" >No Classes</td>
+            </tr>
+            <tr>
+            </tr>
+        </table>
+
+
+        NEW-->
+
+        <br><br>
+
+        <div class="container">
+
+            <!--Major dropdown and checklist-->
+            <fieldset class = major-fieldset>
+                <legend>Select a major</legend>
+                <label for="major">Major:</label>
+                <!-- Will pass the selected course value to the createCheckboxes() on selection -->
+                <select id="major" onchange="majorSelected(this.value)">
+                    <option value="" selected>--Select an option--</option>
+                    <!--Values for courses below must match the names of arrays in JS file-->
+                    <option value="compSciMajor">Computer Science</option>
+                    <option value="mathMajor">Mathematics</option>
+                </select>
+    
+                <div id="majorCheckboxes" class="checkboxes"></div>
+                <div class="major-list" id="majorList">
+                    <!--Checkboxes will be added-->
+                </div>
+            </fieldset>
+    
+            <!--Minor dropdown and checklist-->
+            <fieldset id= 'minor-selection' class = minor-fieldset style ='display: none'>
+                <legend>Select a minor</legend>
+                <label for="minor">Minor:</label>
+                <select id="minor" onchange="minorSelected(this.value)">
+                    <option value="" selected>--Select an option--</option>
+                    <option value="compSciMinor">Computer Science</option>
+                    <option value="mathMinor">Mathematics</option>
+                </select>
+    
+                <div id="minorCheckboxes" class="checkboxes"></div>
+                <div class="minor-list" id="minorList">
+                    <!--Checkboxes added here-->
+                </div>
+            </fieldset>
+            <!--<button onclick="generateSchedule()">Generate Schedule</button> -->
+    
+            
+        </div>
+
+        <!--hi-->
+
+        <p>Some Education and/or Music courses may not display the proper time slot. Refer to the online Registration Guide to verify time slots.</p>
+
+        <p><button onclick="generateSchedule()">Generate Timetable</button></p>
+
+        <table id="scheduleListTerm1">
+            
+            <tr>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+
+            <tr>
+                <td rowspan="2" id="slot1T1">Slot 01</td>
+                <td rowspan="3" id="slot10T1">Slot 10</td>
+                <td rowspan="2" id="slot1T1">Slot 01</td>
+                <td rowspan="3" id="slot10T1">Slot 10</td>
+                <td rowspan="2" id="slot1T1">Slot 01</td>
+            </tr>
+            <tr>
+            </tr>
+
+            <tr>
+                <td rowspan="2" id="slot2T1">Slot 02</td>
+                <td rowspan="2" id="slot2T1">Slot 02</td>
+                <td rowspan="2" id="slot2T1">Slot 02</td>
+            </tr>
+            <tr>
+                <td rowspan="3" id="slot11T1">Slot 11</td>
+                <td rowspan="3" id="slot11T1">Slot 11</td>
+            </tr>
+            <tr> 
+                <td rowspan="2" id="slot3T1">Slot 03</td>
+                <td rowspan="2" id="slot3T1">Slot 03</td>
+                <td rowspan="2" id="slot3T1">Slot 03</td>
+            </tr>
+            
+
+
+            <tr></tr>
+                <td rowspan="2" id="slot4T1">Slot 04</td>
+                <td rowspan="2" id="slot12T1">Slot 12</td>
+                <td rowspan="2" id="slot4T1">Slot 04</td>
+                <td rowspan="4" id="slot12T1">Slot 12</td>
+                <td rowspan="2" id="slot4T1">Slot 04</td>
+            </tr>
+            <tr>
+            </tr>
+
+            <tr>
+                <td rowspan="2" id="slot5T1">Slot 05</td>
+                <td rowspan="2" id="slot0T1">No Classes</td>
+                <td rowspan="2" id="slot5T1">Slot 05</td>
+                <td rowspan="2" id="slot5T1">Slot 05</td>
+            </tr>
+            <tr>
+            </tr>
+
+
+            <tr>
+                <td rowspan="2" id="slot6T1">Slot 06</td>
+                <td rowspan="6" id="slot13T1">Slot 13</td>
+                <td rowspan="2" id="slot6T1">Slot 06</td>
+                <td rowspan="6" id="slot14T1">Slot 14</td>
+                <td rowspan="2" id="slot6T1">Slot 06</td>
+            </tr>
+            <tr>
+            </tr>
+
+            <tr>
+                <td rowspan="2" id="slot7T1">Slot 07</td>
+                <td rowspan="2" id="slot7T1">Slot 07</td>
+                <td rowspan="2" id="slot7T1">Slot 07</td>
+            </tr>
+            <tr></tr>
+
+            <tr>
+                <td rowspan="3" id="slot8T1">Slot 08</td>
+                <td rowspan="3" id="slot8T1">Slot 08</td>
+                <td rowspan="5" id="slot15T1">Slot 015</td>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+                <td rowspan="3" id="slot0T1">No Classes</td>
+                <td rowspan="3" id="slot15T1">Slot 15</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2" id="slot0T1">No Classes</td>
+                <td rowspan="2" id="slot0T1">No Classes</td>
+            </tr>
+            <tr>
+            </tr>
+        </table>
+
+        <!--TERM 2 :O-->
+
+        <table id="scheduleListTerm2">
+            
+            <tr>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+
+            <tr>
+                <td rowspan="2" id="slot1T2">Slot 01</td>
+                <td rowspan="3" id="slot10T2">Slot 10</td>
+                <td rowspan="2" id="slot1T2">Slot 01</td>
+                <td rowspan="3" id="slot10T2">Slot 10</td>
+                <td rowspan="2" id="slot1T2">Slot 01</td>
+            </tr>
+            <tr>
+            </tr>
+
+            <tr>
+                <td rowspan="2" id="slot2T2">Slot 02</td>
+                <td rowspan="2" id="slot2T2">Slot 02</td>
+                <td rowspan="2" id="slot2T2">Slot 02</td>
+            </tr>
+            <tr>
+                <td rowspan="3" id="slot11T2">Slot 11</td>
+                <td rowspan="3" id="slot11T2">Slot 11</td>
+            </tr>
+            <tr> 
+                <td rowspan="2" id="slot3T2">Slot 03</td>
+                <td rowspan="2" id="slot3T2">Slot 03</td>
+                <td rowspan="2" id="slot3T2">Slot 03</td>
+            </tr>
+            
+
+
+            <tr></tr>
+                <td rowspan="2" id="slot4T2">Slot 04</td>
+                <td rowspan="2" id="slot12T2">Slot 12</td>
+                <td rowspan="2" id="slot4T2">Slot 04</td>
+                <td rowspan="4" id="slot12T2">Slot 12</td>
+                <td rowspan="2" id="slot4T2">Slot 04</td>
+            </tr>
+            <tr>
+            </tr>
+
+            <tr>
+                <td rowspan="2" id="slot5T2">Slot 05</td>
+                <td rowspan="2" id="slot0T2">No Classes</td>
+                <td rowspan="2" id="slot5T2">Slot 05</td>
+                <td rowspan="2" id="slot5T2">Slot 05</td>
+            </tr>
+            <tr>
+            </tr>
+
+
+            <tr>
+                <td rowspan="2" id="slot6T2">Slot 06</td>
+                <td rowspan="6" id="slot13T2">Slot 13</td>
+                <td rowspan="2" id="slot6T2">Slot 06</td>
+                <td rowspan="6" id="slot14T2">Slot 14</td>
+                <td rowspan="2" id="slot6T2">Slot 06</td>
+            </tr>
+            <tr>
+            </tr>
+
+            <tr>
+                <td rowspan="2" id="slot7T2">Slot 07</td>
+                <td rowspan="2" id="slot7T2">Slot 07</td>
+                <td rowspan="2" id="slot7T2">Slot 07</td>
+            </tr>
+            <tr></tr>
+
+            <tr>
+                <td rowspan="3" id="slot8T2">Slot 08</td>
+                <td rowspan="3" id="slot8T2">Slot 08</td>
+                <td rowspan="5" id="slot15T2">Slot 015</td>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+                <td rowspan="3" id="slot0T2">No Classes</td>
+                <td rowspan="3" id="slot15T2">Slot 15</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2" id="slot0T2">No Classes</td>
+                <td rowspan="2" id="slot0T2">No Classes</td>
+            </tr>
+            <tr>
+            </tr>
+        </table>
+
+
+
+
+    </body>
+</html>

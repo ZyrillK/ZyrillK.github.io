@@ -1,0 +1,262 @@
+[
+    {
+        "id": 156,
+        "name": "Finite Mathematics",
+        "year": 1,
+        "prereq": [],
+        "slotsByTerm": {}
+    },
+
+    {
+        "id": 160,
+        "name": "Comp Sci 1",
+        "year": 1,
+        "prereq": [],
+        "slotsByTerm": {
+            "1": [5]
+        }
+    },
+
+    {
+        "id": 161,
+        "name": "Comp Sci 2",
+        "year": 1,
+        "prereq": [160],
+        "slotsByTerm": {
+            "1": [5]
+        }
+    },
+
+    {
+        "id": 171,
+        "name": "Into to Statistics",
+        "year": 1,
+        "prereq": [],
+        "slotsByTerm": {
+            "1": [3, 4, 11],
+            "2": [1, 3]
+        }
+    },
+
+    {
+        "id": 172,
+        "name": "Into to Stat Inference",
+        "year": 1,
+        "prereq": [],
+        "slotsByTerm": {
+            "2": [3]
+        }
+    },
+
+    {
+        "id": 181,
+        "name": "Calculus 1",
+        "year": 1,
+        "prereq": [],
+        "slotsByTerm": {
+            "1": [2],
+            "2": [11]
+        }
+    },
+
+    {
+        "id": 182,
+        "name": "Linear Algebra 1",
+        "year": 1,
+        "prereq": [],
+        "slotsByTerm": {
+            "1": [1],
+            "2": [4]
+        }
+    },
+
+    {
+        "id": 191,
+        "name": "Calculus 2",
+        "year": 1,
+        "prereq": [181],
+        "slotsByTerm": {
+            "2": [2]
+        }
+    },
+
+    {
+        "id": 256,
+        "name": "Discrete Struct/Prog 1",
+        "year": 2,
+        "prereq": [161],
+        "slotsByTerm": {
+            "1": [3]
+        }
+    },
+
+    {
+        "id": 257,
+        "name": "Discrete Struct/Prog 2",
+        "year": 2,
+        "prereq": [256],
+        "slotsByTerm": {
+            "2": [3]
+        }
+    },
+
+    {
+        "id": 261,
+        "name": "Intro Set Theory & Logic",
+        "year": 2,
+        "prereq": [181],
+        "slotsByTerm": {
+            "1": [2]
+        }
+    },
+
+    {
+        "id": 264,
+        "name": "Digital Comp Fundamentals",
+        "year": 2,
+        "prereq": [],
+        "slotsByTerm": {
+            "1": [4]
+        }
+    },
+
+    {
+        "id": 290,
+        "name": "Calculus 3",
+        "year": 2,
+        "prereq": [191],
+        "slotsByTerm": {
+            "1": [1]
+        }
+    },
+
+    {
+        "id": 291,
+        "name": "Calculus 4",
+        "year": 2,
+        "prereq": [290],
+        "slotsByTerm": {
+            "2": [5]
+        }
+    },
+
+    {
+        "id": 351,
+        "name": "Real Analysis 1",
+        "year": 3,
+        "prereq": [261],
+        "slotsByTerm": {
+            "1": [2]
+        }
+    },
+
+    {
+        "id": 352,
+        "name": "Real Analysis 2",
+        "year": 3,
+        "prereq": [351],
+        "slotsByTerm": {
+            "2": [2]
+        }
+    },
+
+    {
+        "id": 356,
+        "name": "Modern Algebra 1",
+        "year": 3,
+        "prereq": [261],
+        "slotsByTerm": {
+            "1": [4]
+        }
+    },
+
+    {
+        "id": 357,
+        "name": "Modern Algebra 2",
+        "year": 3,
+        "prereq": [356],
+        "slotsByTerm": {
+            "2": [4]
+        }
+    },
+
+    {
+        "id": 363,
+        "name": "Complex Analysis",
+        "year": 3,
+        "prereq": [290],
+        "slotsByTerm": {
+            "1": [3]
+        }
+    },
+
+    {
+        "id": 353,
+        "name": "Operating Systems 1",
+        "year": 3,
+        "prereq": [257],
+        "slotsByTerm": {
+            "1": [6]
+        }
+    },
+
+    {
+        "id": 354,
+        "name": "Operating Systems 2",
+        "year": 3,
+        "prereq": [353],
+        "slotsByTerm": {
+            "2": [6]
+        }
+    },
+
+    {
+        "id": 367,
+        "name": "Computer Organization",
+        "year": 3,
+        "prereq": [256],
+        "slotsByTerm": {
+            "1": [5]
+        }
+    },
+
+    {
+        "id": 373,
+        "name": "Design/Analysis Algorithms",
+        "year": 3,
+        "prereq": [257],
+        "slotsByTerm": {
+            "2": [4]
+        }
+    },
+
+    {
+        "id": 460,
+        "name": "Programming Languages",
+        "year": 4,
+        "prereq": [353],
+        "slotsByTerm": {
+            "2": [8]
+        }
+    },
+
+    {
+        "id": 461,
+        "name": "Theory of Computation",
+        "year": 4,
+        "prereq": [261],
+        "slotsByTerm": {
+            "1": [4]
+        }
+    },
+
+    {
+        "id": 463,
+        "name": "Software Engineering",
+        "year": 4,
+        "prereq": [353],
+        "slotsByTerm": {
+            "1": [8]
+        }
+    }
+]

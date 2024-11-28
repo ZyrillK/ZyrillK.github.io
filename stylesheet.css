@@ -1,0 +1,59 @@
+html {
+    background-color: white;
+    padding: 10px;
+}
+
+.enterInput {
+    display: flex;
+}
+
+table, th, td {
+    border: 1px solid;
+  }
+
+th {
+    color: #336699;
+    background-color: #CCCC99;
+}
+
+td {
+    background-color: #F7F7E7;
+}
+
+fieldset {
+    border: 0;
+}
+ul {
+    list-style-type: none;
+}
+
+
+.major-fieldset, .minor-fieldset{
+    flex: 0 1 auto;
+    width: auto;
+    height: auto;
+    border: 2px solid #ccc; /* Optional: customize the fieldset border */
+    padding: 10px;
+    margin: 0; /* Remove margin for closer grouping */
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.container {
+    display: flex;
+    justify-content: start; /* Adjusts the spacing between the two containers */
+    gap: 10px; /* Adds a gap between the two selections */
+    padding: 20px;
+    align-items: flex-start;
+}
+
+.checkboxes {
+    margin-top: 10px;
+}
+
+.course-list {
+    margin-top: 5px;
+}
