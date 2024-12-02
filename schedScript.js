@@ -210,19 +210,38 @@ function displaySchedule(schedule, listId) {
         listItem.textContent = `Course ${course.id} - ${course.name}, Year ${course.year}, Selected Slot: ${course.selectedSlot}`;
         scheduleList.appendChild(listItem);*/
 
+        let time = {
+            1: "8:30-9:20",
+            2: "9:30-10:20",
+            3: "10:40-11:30",
+            4: "11:40-12:30",
+            5: "12:40-1:30",
+            6: "1:40-2:30",
+            7: "2:40-3:30",
+            8: "3:40-5:00",
+            10: "8:30-9:50",
+            11: "10:10-11:30",
+            12: "11:40-12:30",
+            13: "1:40-4:30",
+            14: "1:40-4:30",
+            15: "3:40-5:30",
+        }
+
 
         if(listId == "scheduleListTerm1") {
 
             const tableItem = document.querySelectorAll(`#slot${course.selectedSlot}T1`);
+            console.log(`listTerm 1 ${course.selectedSlot}`);
             tableItem.forEach(cell => {
-                cell.textContent = `${course.name}`;
+                cell.textContent = `${course.name} ${time[course.selectedSlot]}`;
             });
         }
         else if(listId == "scheduleListTerm2") {
 
             const tableItem = document.querySelectorAll(`#slot${course.selectedSlot}T2`);
+            console.log(`listTerm 2 ${course.selectedSlot}`);
             tableItem.forEach(cell => {
-                cell.textContent = `${course.name}`;
+                cell.textContent = `${course.name} ${time[course.selectedSlot]}`;
             });
 
         }
