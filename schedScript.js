@@ -1,4 +1,4 @@
-/*const courseList = [
+ /*const courseList = [
     { id: 156, name: "Finite Mathematics", year: 1, prereq: [], slotsByTerm: {}}, //Not offered this year, special case
     { id: 160, name: "Comp Sci 1", year: 1, prereq: [], slotsByTerm: { 1: [5] } },
     { id: 161, name: "Comp Sci 2", year: 1, prereq: [160], slotsByTerm: { 1: [5] } },
@@ -27,23 +27,23 @@
     { id: 463, name: "Software Engineering", year: 4, prereq: [353], slotsByTerm: { 1: [8] } },
 ]; globalThis.courseList = courseList;*/
 
-getCourseList();
 
-async function getCourseList() {
+getData();
+async function getData() {
     
-    const requestURL = "https://github.com/ZyrillK/timetable/blob/main/courses.json";
-    const request = new Request(requestURL);
+    fetch('https://raw.githubusercontent.com/ZyrillK/ZyrillK.github.io/main/courses.json')
+    .then(response => response.json())
+    .then(data => processData(data))
+    .catch(error => console.error('Error:', error));
 
-    const response = await fetch(request);
-    const courseListLite = await response.json();
+  }
 
-    globalThis.courseList = courseListLite;
-/*
-    $.getJSON("https://github.com/ZyrillK/timetable/blob/main/courses.json")
-    .done(function( data ) {
-       console.log(data)
-    });*/
-}
+function processData(data) {
+    globalThis.courseList = data;
+
+    window.majorSelected = majorSelected;
+    window.minorSelected = minorSelected;
+    window.generateSchedule = generateSchedule;
 
 const compSciMajor=[
     
@@ -236,3 +236,6 @@ function displaySchedule(schedule, listId) {
 
 
 }
+
+}
+
