@@ -262,7 +262,7 @@ function displaySchedule(schedule, listId) {
 function exportToExcel(val){
     var table = document.getElementById(val);
     var wb = XLSX.utils.table_to_book(table);
-    XLSX.writeFile(wb, "data.xlsx" );
+    XLSX.writeFile(wb, `${val}.xlsx` );
 }
 
 
