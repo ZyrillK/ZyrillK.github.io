@@ -29,7 +29,7 @@
 
     {
         "id": 171,
-        "name": "Into to Statistics",
+        "name": "Intro to Statistics",
         "year": 1,
         "prereq": [],
         "slotsByTerm": {
@@ -40,7 +40,7 @@
 
     {
         "id": 172,
-        "name": "Into to Stat Inference",
+        "name": "Intro to Stat Inference",
         "year": 1,
         "prereq": [],
         "slotsByTerm": {
