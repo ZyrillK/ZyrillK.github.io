@@ -5,6 +5,8 @@
         <title>TIMETABLE</title>
         <link rel="stylesheet" href="stylesheet.css">
         <script type ="text/javascript" src="schedScript.js"></script>
+
+        <script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
     </head>
 
 
@@ -248,6 +250,8 @@
             </tr>
         </table>
 
+        <button id=’exportBtn’ onclick = "exportToExcel(`scheduleListTerm1`)"> Export Term 1 Timetable</button>
+        <button id=’exportBtn’ onclick = "exportToExcel(`scheduleListTerm2`)"> Export Term 2 Timetable</button>
 
 
 

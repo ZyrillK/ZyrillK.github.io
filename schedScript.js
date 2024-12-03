@@ -44,6 +44,9 @@ function processData(data) {
     window.majorSelected = majorSelected;
     window.minorSelected = minorSelected;
     window.generateSchedule = generateSchedule;
+    window.exportToExcel = exportToExcel;
+
+    
 
 const compSciMajor=[
     
@@ -255,6 +258,13 @@ function displaySchedule(schedule, listId) {
 
 
 }
+
+function exportToExcel(val){
+    var table = document.getElementById(val);
+    var wb = XLSX.utils.table_to_book(table);
+    XLSX.writeFile(wb, "data.xlsx" );
+}
+
 
 }
 
