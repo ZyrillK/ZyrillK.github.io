@@ -16,7 +16,7 @@
         "slotsByTerm": {
             "1": [5]
         },
-        "description":  "This course includes the study of permutations and combinations, the binomal theorem, elementary set theory and logic, functions, relations, partial orders, mathematical induction and simple algorithms."
+        "description":  "An introduction to digital systems, flowcharting, pseudocoding, and programming using the Java programming language."
     },
 
     {
@@ -27,7 +27,7 @@
         "slotsByTerm": {
             "1": [5]
         },
-        "description":  "This course includes the study of permutations and combinations, the binomal theorem, elementary set theory and logic, functions, relations, partial orders, mathematical induction and simple algorithms."
+        "description":  "A continuation of 62:160 COMP for those students wishing a more in-depth understanding of programming concepts."
     },
 
     {
@@ -39,7 +39,7 @@
             "1": [3, 4, 11],
             "2": [1, 3]
         },
-        "description":  "This course includes the study of permutations and combinations, the binomal theorem, elementary set theory and logic, functions, relations, partial orders, mathematical induction and simple algorithms."
+        "description":  "Descriptive statistics, frequency distributions, mean, variance, the normal distribution, probability theory, populations and samples, sampling distributions. Introduction to estimation and tests of hypotheses and simple linear regression."
     },
 
     {
@@ -50,7 +50,7 @@
         "slotsByTerm": {
             "2": [3]
         },
-        "description":  "This course includes the study of permutations and combinations, the binomal theorem, elementary set theory and logic, functions, relations, partial orders, mathematical induction and simple algorithms."
+        "description":  "A continuation of 62:171 STAT. Estimation, hypothesis testing, two-sample tests, tests for goodness-of-fit, contingency tables, regression and correlation, analysis of variance and non-parametric tests."
     },
 
     {
@@ -62,7 +62,7 @@
             "1": [2],
             "2": [11]
         },
-        "description":  "This course includes the study of permutations and combinations, the binomal theorem, elementary set theory and logic, functions, relations, partial orders, mathematical induction and simple algorithms."
+        "description":  "This course is intended for students who desire an introduction to calculus for use in applications and will stress intuitive methods of presentation."
     },
 
     {
@@ -74,7 +74,7 @@
             "1": [1],
             "2": [4]
         },
-        "description":  "This course includes the study of permutations and combinations, the binomal theorem, elementary set theory and logic, functions, relations, partial orders, mathematical induction and simple algorithms."
+        "description":  "This course is an elementary introduction to the techniques of linear algebra. "
     },
 
     {
@@ -85,7 +85,7 @@
         "slotsByTerm": {
             "2": [2]
         },
-        "description":  "This course includes the study of permutations and combinations, the binomal theorem, elementary set theory and logic, functions, relations, partial orders, mathematical induction and simple algorithms."
+        "description":  "A continuation of 62:181 MATH with more advanced techniques of problem solving."
     },
 
     {
@@ -96,7 +96,7 @@
         "slotsByTerm": {
             "1": [3]
         },
-        "description":  "This course includes the study of permutations and combinations, the binomal theorem, elementary set theory and logic, functions, relations, partial orders, mathematical induction and simple algorithms."
+        "description":  "Topics covered include: Java reviews (generics, inheritance, polymorphism, references, constructor chaining, exceptions, abstract classes, interfaces), recursions, big-Oh, big-Omega, and big-Theta notations, Pseudocode details, basic mathematical functions, algorithm analysis and design, stack, queue, deque, linked-list, vector, position, position-List, sequence, comparator, iterator, favorite-List, favorite-ListMTF, general tress, Java implementations of all data structures mentioned above, as well as applications in searching, deleting and sorting."
     },
 
     {
@@ -107,7 +107,7 @@
         "slotsByTerm": {
             "2": [3]
         },
-        "description":  "This course includes the study of permutations and combinations, the binomal theorem, elementary set theory and logic, functions, relations, partial orders, mathematical induction and simple algorithms."
+        "description":  "Topics covered include: The tree ADT, traversals, binary trees, proper binary trees, Java implementations, array-based representation of binary tress, priority queue and sorting, heap and its operations, heap sorting, button-up heap construction, analysis, adaptable priority queue with heap implementation, maps, hash tables, double hashing and rehash, average-case analysis of performance, dictionaries, ordered dictionaries, binary search trees, BST-sorting, quick sort, merge-sort, skip lists, case-analysis by probability, AVL trees, (2, 4) trees, analysis, red black trees."
     },
 
     {
@@ -118,7 +118,7 @@
         "slotsByTerm": {
             "1": [2]
         },
-        "description":  "This course includes the study of permutations and combinations, the binomal theorem, elementary set theory and logic, functions, relations, partial orders, mathematical induction and simple algorithms."
+        "description":  "Introduction to set theory and mathematical logic and their applications to various operational and relational structures in mathematics, including fractions, relations, modular arithmetic, ordered sets, and cardinal numbers."
     },
 
     {
@@ -129,7 +129,7 @@
         "slotsByTerm": {
             "1": [4]
         },
-        "description":  "This course includes the study of permutations and combinations, the binomal theorem, elementary set theory and logic, functions, relations, partial orders, mathematical induction and simple algorithms."
+        "description":  "A course covering the elementary theory and components of logic circuits leading to an understanding of how components are assembled and controlled in a working computer."
     },
 
     {
@@ -140,7 +140,7 @@
         "slotsByTerm": {
             "1": [1]
         },
-        "description":  "This course includes the study of permutations and combinations, the binomal theorem, elementary set theory and logic, functions, relations, partial orders, mathematical induction and simple algorithms."
+        "description":  "An introduction to the calculus, analysis and geometry of functions of more than one variable, infinite series, partial differentiation, polar coordinates, parametric equations, and selected applications."
     },
 
     {
@@ -151,7 +151,7 @@
         "slotsByTerm": {
             "2": [5]
         },
-        "description":  "This course includes the study of permutations and combinations, the binomal theorem, elementary set theory and logic, functions, relations, partial orders, mathematical induction and simple algorithms."
+        "description":  "Multiple integration, vector-valued functions and an introduction to differential equations. This course also gives more mathematical depth to concepts introduced in 62:290 as well as further applications of a more complex nature."
     },
 
     {
@@ -162,7 +162,7 @@
         "slotsByTerm": {
             "1": [2]
         },
-        "description":  "This course includes the study of permutations and combinations, the binomal theorem, elementary set theory and logic, functions, relations, partial orders, mathematical induction and simple algorithms."
+        "description":  "Topics covered include: Sets and operations, functions, strong induction, supremum and infimum with applications, binary and ternary expansions, countable and uncountable sets, convergent sequences, limit theorems, monotone sequences, subsequences, Bolzano-Weierstrass theorem, Cauchy sequences, convergent series, open and closed sets, relatively open and closed sets, compact sets with several important properties, Heine-Borel theorem, the Cantor set with properties, limit of a function using the epsilon-delta definition, and continuous functions."
     },
 
     {
