@@ -245,7 +245,21 @@ function displaySchedule(schedule, listId) {
                 
                 const tipText = document.createElement('span');
                 tipText.classList.add("tooltiptext");
-                tipText.textContent = "WAAAZZAAAA";
+                tipText.textContent = `${course.id}`;//
+                
+                /*
+                let swk = data[0][`${course.id}`];
+                console.log(swk);*/
+                /*
+                data.forEach(xyz => {
+
+                   
+
+                    if(`${xyz.id}` == `${course.id}`) {
+                        console.log(xyz.description);
+                    }
+
+                });*/
 
                 cell.appendChild(tipText);
 
