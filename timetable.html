@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
+        <!--<meta charset="UTF-8">-->
+        <meta http-equiv="Content-Security-Policy" content="default-src * self blob: data: gap:; style-src * self 'unsafe-inline' blob: data: gap:; script-src * 'self' 'unsafe-eval' 'unsafe-inline' blob: data: gap:; object-src * 'self' blob: data: gap:; img-src * self 'unsafe-inline' blob: data: gap:; connect-src self * 'unsafe-inline' blob: data: gap:; frame-src * self blob: data: gap:;">
         <title>TIMETABLE</title>
         <link rel="stylesheet" href="stylesheet.css">
         <script type ="text/javascript" src="schedScript.js"></script>
@@ -12,6 +13,13 @@
 
 
     <body>
+        
+
+        <div class="tooltip">Hover over me
+            <span class="tooltiptext">Tooltip text</span>
+        </div> 
+
+
         <br><br>
 
         <div class="container">

@@ -31,10 +31,13 @@
 getData();
 async function getData() {
     
+    
     fetch('https://raw.githubusercontent.com/ZyrillK/ZyrillK.github.io/main/courses.json')
     .then(response => response.json())
     .then(data => processData(data))
     .catch(error => console.error('Error:', error));
+
+
 
   }
 
@@ -237,6 +240,15 @@ function displaySchedule(schedule, listId) {
             console.log(`listTerm 1 ${course.selectedSlot}`);
             tableItem.forEach(cell => {
                 cell.textContent = `${course.name} ${time[course.selectedSlot]}`;
+                cell.classList.add("tooltip");
+
+                
+                const tipText = document.createElement('span');
+                tipText.classList.add("tooltiptext");
+                tipText.textContent = "WAAAZZAAAA";
+
+                cell.appendChild(tipText);
+
             });
         }
         else if(listId == "scheduleListTerm2") {
@@ -245,6 +257,14 @@ function displaySchedule(schedule, listId) {
             console.log(`listTerm 2 ${course.selectedSlot}`);
             tableItem.forEach(cell => {
                 cell.textContent = `${course.name} ${time[course.selectedSlot]}`;
+                cell.classList.add("tooltip");
+
+                
+                const tipText = document.createElement('span');
+                tipText.classList.add("tooltiptext");
+                tipText.textContent = "WAAAZZAAAA";
+
+                cell.appendChild(tipText);
             });
 
         }
