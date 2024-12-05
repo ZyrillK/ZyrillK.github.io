@@ -3,9 +3,8 @@ html {
     padding: 10px;
 }
 
-  
   /* Tooltip text */
-  .tooltip .tooltiptext {
+.tooltip .tooltiptext {
     visibility: hidden;
     width: 300px;
     background-color: black;
@@ -14,22 +13,14 @@ html {
     padding: 5px 0;
     border-radius: 6px;
    
-    /* Position the tooltip text - see examples below! */
+
     position: absolute;
     z-index: 1;
-  }
+}
   
-  /* Show the tooltip text when you mouse over the tooltip container */
-  .tooltip:hover .tooltiptext {
+.tooltip:hover .tooltiptext {
     visibility: visible;
-  }
-
-
-
-
-
-
-
+}
 
 .enterInput {
     display: flex;
@@ -54,7 +45,6 @@ fieldset {
 ul {
     list-style-type: none;
 }
-
 
 .major-fieldset, .minor-fieldset{
     flex: 0 1 auto;

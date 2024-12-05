@@ -1,33 +1,6 @@
- /*const courseList = [
-    { id: 156, name: "Finite Mathematics", year: 1, prereq: [], slotsByTerm: {}}, //Not offered this year, special case
-    { id: 160, name: "Comp Sci 1", year: 1, prereq: [], slotsByTerm: { 1: [5] } },
-    { id: 161, name: "Comp Sci 2", year: 1, prereq: [160], slotsByTerm: { 1: [5] } },
-    { id: 171, name: "Intro to Statistics", year: 1, prereq: [], slotsByTerm: { 1:[3, 4, 11], 2: [1, 3] } },
-    { id: 172, name: "Intro to Stat Inference", year: 1, prereq: [], slotsByTerm: {2: [3] } },
-    { id: 181, name: "Calculus 1", year: 1, prereq: [], slotsByTerm: { 1: [2], 2: [11] } },
-    { id: 182, name: "linear Algebra I", year: 1, prereq: [], slotsByTerm: { 1: [1], 2: [4] } },
-    { id: 191, name: "Calculus II", year: 1, prereq: [181], slotsByTerm: {2: [2] } },
-    { id: 256, name: "Discrete Struct/Prog I", year: 2, prereq: [161], slotsByTerm: { 1: [3] } },
-    { id: 257, name: "Discrete Struct/Prog II", year: 2, prereq: [256], slotsByTerm: {2: [3] } },
-    { id: 261, name: "Intro Set Theory & Logic", year: 2, prereq: [181], slotsByTerm: { 1: [2] } },
-    { id: 264, name: "Digital Comp Fundamentals", year: 2, prereq: [], slotsByTerm: { 1: [4] } },
-    { id: 290, name: "Calculus III", year: 2, prereq: [191], slotsByTerm: { 1: [1] } },
-    { id: 291, name: "Calculus IV", year: 2, prereq: [290], slotsByTerm: { 2: [5] } },
-    { id: 351, name: "Real Analysis I", year: 3, prereq: [261], slotsByTerm: { 1: [2] } }, //Prereq and 290
-    { id: 352, name: "Real Analysis II", year: 3, prereq: [351], slotsByTerm: { 2: [2] } },
-    { id: 356, name: "Modern Algebra I", year: 3, prereq: [261], slotsByTerm: { 1: [4] } }, //4 prerequisites 252 or 292, 191 and 261
-    { id: 357, name: "Modern Algebra II", year: 3, prereq: [356], slotsByTerm: { 2: [4] } },
-    { id: 363, name: "Complex Analysis", year: 3, prereq: [290], slotsByTerm: { 1: [3] } },
-    { id: 353, name: "Operating Systems I", year: 3, prereq: [257], slotsByTerm: { 1: [6] } },
-    { id: 354, name: "Operating Systems II", year: 3, prereq: [353], slotsByTerm: {2: [6] } },
-    { id: 367, name: "Computer Organization", year: 3, prereq: [256], slotsByTerm: { 1: [5] } },
-    { id: 373, name: "Design/Analysis Algorithms", year: 3, prereq: [257], slotsByTerm: {2: [4] } },
-    { id: 460, name: "Programming Languages", year: 4, prereq: [353], slotsByTerm: {2: [8] } },
-    { id: 461, name: "Theory of Computation", year: 4, prereq: [261], slotsByTerm: { 1: [4] } },
-    { id: 463, name: "Software Engineering", year: 4, prereq: [353], slotsByTerm: { 1: [8] } },
-]; globalThis.courseList = courseList;*/
 
 
+const MAX_COURSES = 4;
 getData();
 async function getData() {
     
@@ -52,25 +25,33 @@ function processData(data) {
     
 
 const compSciMajor=[
-    
-    getCourse(160), getCourse(161), getCourse(171), getCourse(181), getCourse(182), getCourse(191),
-    getCourse(256), getCourse(257), getCourse(261), getCourse(264), getCourse(290), getCourse(353),
-    getCourse(367), getCourse(373), getCourse(460), getCourse(461), getCourse(463)
-
+    getCourse(62160), getCourse(62161), getCourse(62171), getCourse(62181), getCourse(62182), getCourse(62191),
+    getCourse(62256), getCourse(62257), getCourse(62261), getCourse(62264), getCourse(62290), getCourse(62353),
+    getCourse(62367), getCourse(62373), getCourse(62460), getCourse(62461), getCourse(62463)
 ]; globalThis.compSciMajor = compSciMajor;
 
 const mathMajor =[ //ALso has additional major requirements that have been omitted
-    getCourse(171), getCourse(181), getCourse(182), getCourse(191), getCourse(261), getCourse(290),
-    getCourse(291), getCourse(351), getCourse(352), getCourse(356), getCourse(357), getCourse(363)
+    getCourse(62171), getCourse(62181), getCourse(62182), getCourse(62191), getCourse(62261), getCourse(62290),
+    getCourse(62291), getCourse(62351), getCourse(62352), getCourse(62356), getCourse(62357), getCourse(62363)
 ]; globalThis.mathMajor = mathMajor;
 
+const physMajor =[
+    getCourse(74161), getCourse(74162), getCourse(74272), getCourse(74273), getCourse(74275), getCourse(74276),
+    getCourse(74281), getCourse(74382), getCourse(74387), getCourse(74388), getCourse(62181), getCourse(62191),
+    getCourse(62290), getCourse(62291)
+]; globalThis.physMajor = physMajor;
+
 const compSciMinor =[
-    getCourse(160), getCourse(161)
+    getCourse(62160), getCourse(62161)
 ]; globalThis.compSciMinor = compSciMinor;
 
 const mathMinor=[
-    getCourse(156), getCourse(171), getCourse(172)
+    getCourse(62156), getCourse(62171), getCourse(62172)
 ]; globalThis.mathMinor = mathMinor;
+
+const physMinor =[
+    getCourse(74161), getCourse(74162), getCourse(74272), getCourse(74273), getCourse(74275)
+]; globalThis.physMinor = physMinor;
 
 //A global array for storing scheduled courses to ensure no conflicts
 let scheduledCourses = []; globalThis.scheduledCourses = scheduledCourses;
@@ -112,6 +93,7 @@ function minorSelected(selectedMinor){
 
 function createCheckboxes(chosenCourse, targetContainer){
     let courseArray = chosenCourse;
+    console.log(!Array.isArray(chosenCourse));
     if(!Array.isArray(chosenCourse)) {
         courseArray = globalThis[chosenCourse];
     }
@@ -120,6 +102,8 @@ function createCheckboxes(chosenCourse, targetContainer){
     courseArray.forEach(course => {
         const courseItem = document.createElement('div');
         courseItem.classList.add('course-item');
+
+        console.log(courseArray);
 
         const checkbox = document.createElement('input');
         checkbox.type = 'checkbox';
@@ -139,7 +123,10 @@ function createCheckboxes(chosenCourse, targetContainer){
 function generateSchedule() {
     scheduledCourses = []; //Resets the scheduled courses to be empty
     const selectedMajor = globalThis[document.getElementById('major').value];
-    const selectedMinor = globalThis[document.getElementById('minor').value];
+    const selectedMinor = filterMinorReqs(
+        document.getElementById('major').value,
+        document.getElementById('minor').value
+    );
     finalCourses = [...selectedMajor, ...selectedMinor];
     console.log('final list', finalCourses);
     //Retrieve arrays of the checkboxes in the major and minor divs and combine them
@@ -170,7 +157,6 @@ function generateSchedule() {
     
     displaySchedule(genTermSched(1, untaken), 'scheduleListTerm1')
     displaySchedule(genTermSched(2, untaken), 'scheduleListTerm2')
-    this.updateStyle()
 }
 
 function genTermSched(term, untaken){
@@ -182,9 +168,9 @@ function genTermSched(term, untaken){
     );
     console.log('Eligible:', eligibleCourses);
     //Sort the courses in ascending order by year
-    eligibleCourses.sort((a,b) => a.id - b.id)
+    eligibleCourses.sort((a, b) => a.year - b.year || a.id - b.id);
     //Select up to 4 courses that don't conflict
-    let finalSchedule = [];
+    const finalSchedule = [];
     const chosenSlots = new Set(); // Keep track of chosen slots, set has no duplicates
     for(const course of eligibleCourses){
         const availableSlot = course.slotsByTerm[term].find(slot => !chosenSlots.has(slot));
@@ -195,7 +181,7 @@ function genTermSched(term, untaken){
             chosenSlots.add(availableSlot);
             scheduledCourses.push(course.id);
         }
-        if(finalSchedule.length > 3) break;
+        if(finalSchedule.length >= MAX_COURSES) break;
     }
     return finalSchedule;
 }
@@ -203,18 +189,8 @@ function genTermSched(term, untaken){
 //Alter this function to work properly with the timetable layout designed
 function displaySchedule(schedule, listId) {
 
-    /*
-    const scheduleList = document.getElementById(listId);
-    console.log(listId);
-    scheduleList.innerHTML = "";  // Clear any previous schedule
-    */
-
     schedule.forEach(course => {
 
-        /*
-        const listItem = document.createElement("li");
-        listItem.textContent = `Course ${course.id} - ${course.name}, Year ${course.year}, Selected Slot: ${course.selectedSlot}`;
-        scheduleList.appendChild(listItem);*/
 
         let time = {
             1: "8:30-9:20",
@@ -245,19 +221,17 @@ function displaySchedule(schedule, listId) {
                 
                 const tipText = document.createElement('span');
                 tipText.classList.add("tooltiptext");
-                tipText.textContent = `${course.id}`;//
+                tipText.textContent = `${course.id}`;
          
                 data.forEach(xyz => {
 
                     if(`${xyz.id}` == `${course.id}`) {
-                        console.log(`${xyz.description}`);
                         tipText.textContent = `${xyz.description}`;
                     }
 
                 });
 
                 cell.appendChild(tipText);
-
             });
         }
         else if(listId == "scheduleListTerm2") {
@@ -276,25 +250,18 @@ function displaySchedule(schedule, listId) {
                 data.forEach(xyz => {
 
                     if(`${xyz.id}` == `${course.id}`) {
-                        console.log(`${xyz.description}`);
                         tipText.textContent = `${xyz.description}`;
                     }
 
                 });
 
                 cell.appendChild(tipText);
-
             });
 
         }
 
 
     });
-
-    if (schedule.length === 0) {
-        scheduleList.innerHTML = "<li>No available courses to schedule</li>";
-    }
-
 
 }
 
@@ -306,4 +273,3 @@ function exportToExcel(val){
 
 
 }
-

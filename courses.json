@@ -62,7 +62,7 @@
             "1": [2],
             "2": [11]
         },
-        "description":  "This course is intended for students who desire an introduction to calculus for use in applications and will stress intuitive methods of presentation."
+        "description": "This course is intended for students who desire an introduction to calculus for use in applications and will stress intuitive methods of presentation."
     },
 
     {
@@ -74,7 +74,7 @@
             "1": [1],
             "2": [4]
         },
-        "description":  "This course is an elementary introduction to the techniques of linear algebra. "
+        "description": "This course is an elementary introduction to the techniques of linear algebra. "
     },
 
     {
@@ -85,7 +85,7 @@
         "slotsByTerm": {
             "2": [2]
         },
-        "description":  "A continuation of 62:181 MATH with more advanced techniques of problem solving."
+        "description": "A continuation of 62:181 MATH with more advanced techniques of problem solving."
     },
 
     {
@@ -96,7 +96,7 @@
         "slotsByTerm": {
             "1": [3]
         },
-        "description":  "Topics covered include: Java reviews (generics, inheritance, polymorphism, references, constructor chaining, exceptions, abstract classes, interfaces), recursions, big-Oh, big-Omega, and big-Theta notations, Pseudocode details, basic mathematical functions, algorithm analysis and design, stack, queue, deque, linked-list, vector, position, position-List, sequence, comparator, iterator, favorite-List, favorite-ListMTF, general tress, Java implementations of all data structures mentioned above, as well as applications in searching, deleting and sorting."
+        "description": "Topics covered include: Java reviews (generics, inheritance, polymorphism, references, constructor chaining, exceptions, abstract classes, interfaces), recursions, big-Oh, big-Omega, and big-Theta notations, Pseudocode details, basic mathematical functions, algorithm analysis and design, stack, queue, deque, linked-list, vector, position, position-List, sequence, comparator, iterator, favorite-List, favorite-ListMTF, general tress, Java implementations of all data structures mentioned above, as well as applications in searching, deleting and sorting."
     },
 
     {
@@ -107,7 +107,7 @@
         "slotsByTerm": {
             "2": [3]
         },
-        "description":  "Topics covered include: The tree ADT, traversals, binary trees, proper binary trees, Java implementations, array-based representation of binary tress, priority queue and sorting, heap and its operations, heap sorting, button-up heap construction, analysis, adaptable priority queue with heap implementation, maps, hash tables, double hashing and rehash, average-case analysis of performance, dictionaries, ordered dictionaries, binary search trees, BST-sorting, quick sort, merge-sort, skip lists, case-analysis by probability, AVL trees, (2, 4) trees, analysis, red black trees."
+        "description": "Topics covered include: The tree ADT, traversals, binary trees, proper binary trees, Java implementations, array-based representation of binary tress, priority queue and sorting, heap and its operations, heap sorting, button-up heap construction, analysis, adaptable priority queue with heap implementation, maps, hash tables, double hashing and rehash, average-case analysis of performance, dictionaries, ordered dictionaries, binary search trees, BST-sorting, quick sort, merge-sort, skip lists, case-analysis by probability, AVL trees, (2, 4) trees, analysis, red black trees."
     },
 
     {
@@ -118,7 +118,7 @@
         "slotsByTerm": {
             "1": [2]
         },
-        "description":  "Introduction to set theory and mathematical logic and their applications to various operational and relational structures in mathematics, including fractions, relations, modular arithmetic, ordered sets, and cardinal numbers."
+        "description": "Introduction to set theory and mathematical logic and their applications to various operational and relational structures in mathematics, including fractions, relations, modular arithmetic, ordered sets, and cardinal numbers."
     },
 
     {
@@ -129,7 +129,7 @@
         "slotsByTerm": {
             "1": [4]
         },
-        "description":  "A course covering the elementary theory and components of logic circuits leading to an understanding of how components are assembled and controlled in a working computer."
+        "description": "A course covering the elementary theory and components of logic circuits leading to an understanding of how components are assembled and controlled in a working computer."
     },
 
     {
@@ -140,7 +140,7 @@
         "slotsByTerm": {
             "1": [1]
         },
-        "description":  "An introduction to the calculus, analysis and geometry of functions of more than one variable, infinite series, partial differentiation, polar coordinates, parametric equations, and selected applications."
+        "description": "An introduction to the calculus, analysis and geometry of functions of more than one variable, infinite series, partial differentiation, polar coordinates, parametric equations, and selected applications."
     },
 
     {
@@ -151,7 +151,7 @@
         "slotsByTerm": {
             "2": [5]
         },
-        "description":  "Multiple integration, vector-valued functions and an introduction to differential equations. This course also gives more mathematical depth to concepts introduced in 62:290 as well as further applications of a more complex nature."
+        "description": "Multiple integration, vector-valued functions and an introduction to differential equations. This course also gives more mathematical depth to concepts introduced in 62:290 as well as further applications of a more complex nature."
     },
 
     {
@@ -162,7 +162,7 @@
         "slotsByTerm": {
             "1": [2]
         },
-        "description":  "Topics covered include: Sets and operations, functions, strong induction, supremum and infimum with applications, binary and ternary expansions, countable and uncountable sets, convergent sequences, limit theorems, monotone sequences, subsequences, Bolzano-Weierstrass theorem, Cauchy sequences, convergent series, open and closed sets, relatively open and closed sets, compact sets with several important properties, Heine-Borel theorem, the Cantor set with properties, limit of a function using the epsilon-delta definition, and continuous functions."
+        "description": "Topics covered include: Sets and operations, functions, strong induction, supremum and infimum with applications, binary and ternary expansions, countable and uncountable sets, convergent sequences, limit theorems, monotone sequences, subsequences, Bolzano-Weierstrass theorem, Cauchy sequences, convergent series, open and closed sets, relatively open and closed sets, compact sets with several important properties, Heine-Borel theorem, the Cantor set with properties, limit of a function using the epsilon-delta definition, and continuous functions."
     },
 
     {
@@ -173,7 +173,7 @@
         "slotsByTerm": {
             "2": [2]
         },
-        "description":  "Topics covered include: Continuous functions by the epsilon-delta definition, topological characterization of continuity, continuity and compactness, fixed points, uniform continuity, Lipschitz functions, monotone functions and discontinuities, construction of monotone functions with prescribed discontinuities, inverse functions, derivatives, Rolle’s theorem, mean value theorem, Cauchy mean value theorem with their proofs and applications, inverse function theorem, proof of L’Hospital’s rule, upper and lower sums of the Riemann integral, integrability of continuous and monotone functions, Lebesgue theorem, properties of the Riemann integral and fundamental theorem of calculus, uniform convergence and continuity."
+        "description": "Topics covered include: Continuous functions by the epsilon-delta definition, topological characterization of continuity, continuity and compactness, fixed points, uniform continuity, Lipschitz functions, monotone functions and discontinuities, construction of monotone functions with prescribed discontinuities, inverse functions, derivatives, Rolle’s theorem, mean value theorem, Cauchy mean value theorem with their proofs and applications, inverse function theorem, proof of L’Hospital’s rule, upper and lower sums of the Riemann integral, integrability of continuous and monotone functions, Lebesgue theorem, properties of the Riemann integral and fundamental theorem of calculus, uniform convergence and continuity."
     },
 
     {
@@ -184,7 +184,7 @@
         "slotsByTerm": {
             "1": [4]
         },
-        "description":  "An introduction to abstract algebra with a focus on group theory, including the following topics: Binary operations; semigroups and monoids; submonoids; inverses in monoids; groups; subgroups; various examples of groups, monoids, and semigroups; the integers modulo n; direct products; the order of an element; cyclic groups; isomorphisms and homomorphisms; Cayley's Theorem; cosets and Lagrange's Theorem; normal subgroups and congruence; quotient groups; kernels; the universal property of the quotient group; the First Isomorphism Theorem for groups; rings and ring homomorphisms (definitions and examples)."
+        "description": "An introduction to abstract algebra with a focus on group theory, including the following topics: Binary operations; semigroups and monoids; submonoids; inverses in monoids; groups; subgroups; various examples of groups, monoids, and semigroups; the integers modulo n; direct products; the order of an element; cyclic groups; isomorphisms and homomorphisms; Cayley's Theorem; cosets and Lagrange's Theorem; normal subgroups and congruence; quotient groups; kernels; the universal property of the quotient group; the First Isomorphism Theorem for groups; rings and ring homomorphisms (definitions and examples)."
     },
 
     {
@@ -195,7 +195,7 @@
         "slotsByTerm": {
             "2": [4]
         },
-        "description":  "An introduction to the theory of rings and fields, including the following topics: Rings; subrings; units in rings; fields; integral domains; homomorphisms and isomorphisms of rings; the field of fractions of an integral domain; polynomial rings; the division algorithm for polynomials; ideals and congruence; quotient rings; prime and maximal ideals; kernels of ring homomorphisms; the characteristic of a ring; the universal property of the quotient ring; the First Isomorphism Theorem for rings; irreducible polynomials and roots of polynomials; unique factorization of polynomials; algebraically closed fields; vector spaces over a field; field extensions; algebraic and transcendental elements; finite extensions and algebraic extensions; the minimal polynomial of an algebraic element; simple extensions; algebraic closure. Additional topics may include: Straightedge and compass constructions; the constructible numbers; principal ideal domains, unique factorization domains, and Euclidean domains; splitting fields; separable extensions; Galois groups, Galois extensions, and the Fundamental Theorem of Galois Theory; modules over rings."
+        "description": "An introduction to the theory of rings and fields, including the following topics: Rings; subrings; units in rings; fields; integral domains; homomorphisms and isomorphisms of rings; the field of fractions of an integral domain; polynomial rings; the division algorithm for polynomials; ideals and congruence; quotient rings; prime and maximal ideals; kernels of ring homomorphisms; the characteristic of a ring; the universal property of the quotient ring; the First Isomorphism Theorem for rings; irreducible polynomials and roots of polynomials; unique factorization of polynomials; algebraically closed fields; vector spaces over a field; field extensions; algebraic and transcendental elements; finite extensions and algebraic extensions; the minimal polynomial of an algebraic element; simple extensions; algebraic closure. Additional topics may include: Straightedge and compass constructions; the constructible numbers; principal ideal domains, unique factorization domains, and Euclidean domains; splitting fields; separable extensions; Galois groups, Galois extensions, and the Fundamental Theorem of Galois Theory; modules over rings."
     },
 
     {
@@ -206,7 +206,7 @@
         "slotsByTerm": {
             "1": [3]
         },
-        "description":  "Topics covered include: Complex numbers, limits, continuity, derivative, Cauchy-Riemann equations, analytic and harmonic functions, elementary functions, definite integrals, contour integrals, Cauchy theorem, Cauchy integral formula, Liouville’s theorem, fundamental theorem of algebra, maximum modulus principle, Taylor’s series, Laurent series, residue theorem with its application to computations of trigonometric and improper integrals."
+        "description": "Topics covered include: Complex numbers, limits, continuity, derivative, Cauchy-Riemann equations, analytic and harmonic functions, elementary functions, definite integrals, contour integrals, Cauchy theorem, Cauchy integral formula, Liouville’s theorem, fundamental theorem of algebra, maximum modulus principle, Taylor’s series, Laurent series, residue theorem with its application to computations of trigonometric and improper integrals."
     },
 
     {
@@ -217,7 +217,7 @@
         "slotsByTerm": {
             "1": [6]
         },
-        "description":  "Design and implementation of operating systems."
+        "description": "Design and implementation of operating systems."
     },
 
     {
@@ -228,7 +228,7 @@
         "slotsByTerm": {
             "2": [6]
         },
-        "description":  "Operating Systems II will provide students with an intensive focus on conceptual and practical aspects of designing, implementing, and debugging concurrent and networked software systems using patterns and frameworks related to Java and Android middleware."
+        "description": "Operating Systems II will provide students with an intensive focus on conceptual and practical aspects of designing, implementing, and debugging concurrent and networked software systems using patterns and frameworks related to Java and Android middleware."
     },
 
     {
@@ -239,7 +239,7 @@
         "slotsByTerm": {
             "1": [5]
         },
-        "description":  "A survey of modern computer architectures."
+        "description": "A survey of modern computer architectures."
     },
 
     {
@@ -250,7 +250,7 @@
         "slotsByTerm": {
             "2": [4]
         },
-        "description":  "The objective of this course is to introduce concepts and problem-solving techniques that are used in the design and analysis of efficient algorithms by studying sorting algorithms and a variety of data structures."
+        "description": "The objective of this course is to introduce concepts and problem-solving techniques that are used in the design and analysis of efficient algorithms by studying sorting algorithms and a variety of data structures."
     },
 
     {
@@ -261,7 +261,7 @@
         "slotsByTerm": {
             "2": [8]
         },
-        "description":  "A survey of programming language concepts and design principles of programming paradigms (procedural, functional and logic)."
+        "description": "A survey of programming language concepts and design principles of programming paradigms (procedural, functional and logic)."
     },
 
     {
@@ -272,7 +272,7 @@
         "slotsByTerm": {
             "1": [4]
         },
-        "description":  "An introduction to computability including Turing computable, abacus computable and recursive functions and the relation between them."
+        "description": "An introduction to computability including Turing computable, abacus computable and recursive functions and the relation between them."
     },
 
     {
@@ -283,7 +283,7 @@
         "slotsByTerm": {
             "1": [8]
         },
-        "description":  "Software Engineering is a relatively new branch of computer science, which includes the development and building of computer systems software and applications software by engineering approaches."
+        "description": "Software Engineering is a relatively new branch of computer science, which includes the development and building of computer systems software and applications software by engineering approaches."
     },
 
 
@@ -295,7 +295,7 @@
         "slotsByTerm": {
             "1": [3]
         },
-        "description":  "This course is a calculus based introduction to classical mechanics and thermodynamics."
+        "description": "This course is a calculus based introduction to classical mechanics and thermodynamics."
     },
 
     {
@@ -306,7 +306,7 @@
         "slotsByTerm": {
             "2": [3]
         },
-        "description":  "This course is a calculus-based introduction to waves, optics, electricity and magnetism, and quantum physics. "
+        "description": "This course is a calculus-based introduction to waves, optics, electricity and magnetism, and quantum physics."
     },
 
     {
@@ -317,7 +317,7 @@
         "slotsByTerm": {
             "2": [1]
         },
-        "description":  "This is an introductory course on the fundamentals of the electric charge and current, the electric and magnetic field, and electric potential."
+        "description": "This is an introductory course on the fundamentals of the electric charge and current, the electric and magnetic field, and electric potential."
     },
 
     {
@@ -328,7 +328,7 @@
         "slotsByTerm": {
             "1": [12]
         },
-        "description":  "A study of reflection, refraction, lens systems, optical instruments, dispersion, achromatism, diffraction, interference, polarization."
+        "description": "A study of reflection, refraction, lens systems, optical instruments, dispersion, achromatism, diffraction, interference, polarization."
     },
 
     {
@@ -339,7 +339,7 @@
         "slotsByTerm": {
             "1": [5]
         },
-        "description":  "Late in the 19th Century, many scientists believed there were few unsolved problems left in Science."
+        "description": "Late in the 19th Century, many scientists believed there were few unsolved problems left in Science."
     },
 
     {
@@ -350,7 +350,7 @@
         "slotsByTerm": {
             "1": [4]
         },
-        "description":  "opics to be discussed include vector algebra, differential and integral calculus of vectors, complex number theory and Fourier Series. "
+        "description": "opics to be discussed include vector algebra, differential and integral calculus of vectors, complex number theory and Fourier Series. "
     },
 
     {
@@ -361,7 +361,7 @@
         "slotsByTerm": {
             "2": [11]
         },
-        "description":  "This is an introductory course in modern tools and techniques in computational physics."
+        "description": "This is an introductory course in modern tools and techniques in computational physics."
     },
 
     {
@@ -372,18 +372,18 @@
         "slotsByTerm": {
             "1": [10]
         },
-        "description":  "Topics to include kinematics, motion of a particle, a system of particles and rigid bodies, central force motion, and vibrations."
+        "description": "Topics to include kinematics, motion of a particle, a system of particles and rigid bodies, central force motion, and vibrations."
     },
 
     {
-        "id": 743827,
+        "id": 74387,
         "name": "Statistical and Thermal Physics",
         "year": 3,
         "prereq": [74276],
         "slotsByTerm": {
             "1": [5]
         },
-        "description":  "An account of thermal physics presented from a quantum viewpoint."
+        "description": "An account of thermal physics presented from a quantum viewpoint."
     },
 
     {
@@ -394,7 +394,7 @@
         "slotsByTerm": {
             "1": [1]
         },
-        "description":  "Basic quantum mechanical concepts are developed and solutions of the Schrodinger equation are obtained for a particle in a potential well, a harmonic oscillator and the hydrogen atom."
+        "description": "Basic quantum mechanical concepts are developed and solutions of the Schrodinger equation are obtained for a particle in a potential well, a harmonic oscillator and the hydrogen atom."
     }
 
 
