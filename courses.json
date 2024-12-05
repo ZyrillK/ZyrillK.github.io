@@ -1,6 +1,6 @@
 [
     {
-        "id": 156,
+        "id": 62156,
         "name": "Finite Mathematics",
         "year": 1,
         "prereq": [],
@@ -9,7 +9,7 @@
     },
 
     {
-        "id": 160,
+        "id": 62160,
         "name": "Comp Sci 1",
         "year": 1,
         "prereq": [],
@@ -20,18 +20,18 @@
     },
 
     {
-        "id": 161,
+        "id": 62161,
         "name": "Comp Sci 2",
         "year": 1,
-        "prereq": [160],
+        "prereq": [62160],
         "slotsByTerm": {
-            "1": [5]
+            "2": [5]
         },
         "description":  "A continuation of 62:160 COMP for those students wishing a more in-depth understanding of programming concepts."
     },
 
     {
-        "id": 171,
+        "id": 62171,
         "name": "Intro to Statistics",
         "year": 1,
         "prereq": [],
@@ -43,7 +43,7 @@
     },
 
     {
-        "id": 172,
+        "id": 62172,
         "name": "Intro to Stat Inference",
         "year": 1,
         "prereq": [],
@@ -54,7 +54,7 @@
     },
 
     {
-        "id": 181,
+        "id": 62181,
         "name": "Calculus 1",
         "year": 1,
         "prereq": [],
@@ -66,7 +66,7 @@
     },
 
     {
-        "id": 182,
+        "id": 62182,
         "name": "Linear Algebra 1",
         "year": 1,
         "prereq": [],
@@ -78,10 +78,10 @@
     },
 
     {
-        "id": 191,
+        "id": 62191,
         "name": "Calculus 2",
         "year": 1,
-        "prereq": [181],
+        "prereq": [62181],
         "slotsByTerm": {
             "2": [2]
         },
@@ -89,10 +89,10 @@
     },
 
     {
-        "id": 256,
+        "id": 62256,
         "name": "Discrete Struct/Prog 1",
         "year": 2,
-        "prereq": [161],
+        "prereq": [62161],
         "slotsByTerm": {
             "1": [3]
         },
@@ -100,10 +100,10 @@
     },
 
     {
-        "id": 257,
+        "id": 62257,
         "name": "Discrete Struct/Prog 2",
         "year": 2,
-        "prereq": [256],
+        "prereq": [62256],
         "slotsByTerm": {
             "2": [3]
         },
@@ -111,10 +111,10 @@
     },
 
     {
-        "id": 261,
+        "id": 62261,
         "name": "Intro Set Theory & Logic",
         "year": 2,
-        "prereq": [181],
+        "prereq": [62181],
         "slotsByTerm": {
             "1": [2]
         },
@@ -122,7 +122,7 @@
     },
 
     {
-        "id": 264,
+        "id": 62264,
         "name": "Digital Comp Fundamentals",
         "year": 2,
         "prereq": [],
@@ -133,10 +133,10 @@
     },
 
     {
-        "id": 290,
+        "id": 62290,
         "name": "Calculus 3",
         "year": 2,
-        "prereq": [191],
+        "prereq": [62191],
         "slotsByTerm": {
             "1": [1]
         },
@@ -144,10 +144,10 @@
     },
 
     {
-        "id": 291,
+        "id": 62291,
         "name": "Calculus 4",
         "year": 2,
-        "prereq": [290],
+        "prereq": [62290],
         "slotsByTerm": {
             "2": [5]
         },
@@ -155,10 +155,10 @@
     },
 
     {
-        "id": 351,
+        "id": 62351,
         "name": "Real Analysis 1",
         "year": 3,
-        "prereq": [261],
+        "prereq": [62261],
         "slotsByTerm": {
             "1": [2]
         },
@@ -166,10 +166,10 @@
     },
 
     {
-        "id": 352,
+        "id": 62352,
         "name": "Real Analysis 2",
         "year": 3,
-        "prereq": [351],
+        "prereq": [62351],
         "slotsByTerm": {
             "2": [2]
         },
@@ -177,10 +177,10 @@
     },
 
     {
-        "id": 356,
+        "id": 62356,
         "name": "Modern Algebra 1",
         "year": 3,
-        "prereq": [261],
+        "prereq": [62261],
         "slotsByTerm": {
             "1": [4]
         },
@@ -188,10 +188,10 @@
     },
 
     {
-        "id": 357,
+        "id": 62357,
         "name": "Modern Algebra 2",
         "year": 3,
-        "prereq": [356],
+        "prereq": [62356],
         "slotsByTerm": {
             "2": [4]
         },
@@ -199,10 +199,10 @@
     },
 
     {
-        "id": 363,
+        "id": 62363,
         "name": "Complex Analysis",
         "year": 3,
-        "prereq": [290],
+        "prereq": [62290],
         "slotsByTerm": {
             "1": [3]
         },
@@ -210,10 +210,10 @@
     },
 
     {
-        "id": 353,
+        "id": 62353,
         "name": "Operating Systems 1",
         "year": 3,
-        "prereq": [257],
+        "prereq": [62257],
         "slotsByTerm": {
             "1": [6]
         },
@@ -221,10 +221,10 @@
     },
 
     {
-        "id": 354,
+        "id": 62354,
         "name": "Operating Systems 2",
         "year": 3,
-        "prereq": [353],
+        "prereq": [62353],
         "slotsByTerm": {
             "2": [6]
         },
@@ -232,10 +232,10 @@
     },
 
     {
-        "id": 367,
+        "id": 62367,
         "name": "Computer Organization",
         "year": 3,
-        "prereq": [256],
+        "prereq": [62256],
         "slotsByTerm": {
             "1": [5]
         },
@@ -243,10 +243,10 @@
     },
 
     {
-        "id": 373,
+        "id": 62373,
         "name": "Design/Analysis Algorithms",
         "year": 3,
-        "prereq": [257],
+        "prereq": [62257],
         "slotsByTerm": {
             "2": [4]
         },
@@ -254,10 +254,10 @@
     },
 
     {
-        "id": 460,
+        "id": 62460,
         "name": "Programming Languages",
         "year": 4,
-        "prereq": [353],
+        "prereq": [62353],
         "slotsByTerm": {
             "2": [8]
         },
@@ -265,10 +265,10 @@
     },
 
     {
-        "id": 461,
+        "id": 62461,
         "name": "Theory of Computation",
         "year": 4,
-        "prereq": [261],
+        "prereq": [62261],
         "slotsByTerm": {
             "1": [4]
         },
@@ -276,13 +276,116 @@
     },
 
     {
-        "id": 463,
+        "id": 62463,
         "name": "Software Engineering",
         "year": 4,
-        "prereq": [353],
+        "prereq": [62353],
         "slotsByTerm": {
             "1": [8]
         },
         "description":  "Software Engineering is a relatively new branch of computer science, which includes the development and building of computer systems software and applications software by engineering approaches."
+    },
+
+
+    {
+        "id": 74161,
+        "name": "Foundations of Physics I",
+        "year": 1,
+        "prereq": [],
+        "slotsByTerm": {
+            "1": [3]
+        }
+    },
+
+    {
+        "id": 74162,
+        "name": "Foundations of Physics II",
+        "year": 1,
+        "prereq": [74161],
+        "slotsByTerm": {
+            "2": [3]
+        }
+    },
+
+    {
+        "id": 74272,
+        "name": "Electricity and Magnetism",
+        "year": 2,
+        "prereq": [74162],
+        "slotsByTerm": {
+            "2": [1]
+        }
+    },
+
+    {
+        "id": 74273,
+        "name": "Optics",
+        "year": 2,
+        "prereq": [74162],
+        "slotsByTerm": {
+            "1": [12]
+        }
+    },
+
+    {
+        "id": 74275,
+        "name": "Modern Physics",
+        "year": 2,
+        "prereq": [74162],
+        "slotsByTerm": {
+            "1": [5]
+        }
+    },
+
+    {
+        "id": 74276,
+        "name": "Mathematical Physics I",
+        "year": 2,
+        "prereq": [74162],
+        "slotsByTerm": {
+            "1": [4]
+        }
+    },
+
+    {
+        "id": 74281,
+        "name": "Computational Physics",
+        "year": 2,
+        "prereq": [62191],
+        "slotsByTerm": {
+            "2": [11]
+        }
+    },
+
+    {
+        "id": 74382,
+        "name": "Intermediate Mechanics",
+        "year": 3,
+        "prereq": [74276],
+        "slotsByTerm": {
+            "1": [10]
+        }
+    },
+
+    {
+        "id": 743827,
+        "name": "Statistical and Thermal Physics",
+        "year": 3,
+        "prereq": [74276],
+        "slotsByTerm": {
+            "1": [5]
+        }
+    },
+
+    {
+        "id": 74388,
+        "name": "Quantum Mechanics I",
+        "year": 3,
+        "prereq": [74276],
+        "slotsByTerm": {
+            "1": [1]
+        }
     }
+
+
 ]
